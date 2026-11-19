@@ -1,0 +1,137 @@
+=== witness_c6_13_len66.txt
+file research/improve-frontier/referee_davenport/witness_c6_13_len66.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038844 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 13 distinct elements, multiplicities [3, 4, 4, 1, 1, 1, 3, 1, 2, 1, 1, 1, 1]; sub-multisets to scan: 307200
+nonempty Y with sigma(Y) = 0 on P: 125
+of those, -sigma(Y)|Q in Sigma(A): 0
+VERDICT (mitm): ZERO-SUMFREE
+        0.60 real         0.45 user         0.06 sys
+           580468736  maximum resident set size
+=== controls/R1_onecoord.txt
+file research/improve-frontier/referee_davenport/controls/R1_onecoord.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 4 terms, lines [1, 4, 5, 9]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.40 real         0.29 user         0.05 sys
+           465076224  maximum resident set size
+=== controls/R2_neg5.txt
+file research/improve-frontier/referee_davenport/controls/R2_neg5.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038844 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 13 distinct elements, multiplicities [3, 4, 4, 1, 1, 3, 1, 1, 2, 1, 1, 1, 1]; sub-multisets to scan: 307200
+nonempty Y with sigma(Y) = 0 on P: 153
+of those, -sigma(Y)|Q in Sigma(A): 50
+explicit zero-sum subsequence: 22 terms, lines [4, 5, 6, 7, 9, 10, 12, 13, 14, 16, 19, 26, 27, 28, 33, 38, 57, 58, 59, 60, 63, 66]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.58 real         0.45 user         0.07 sys
+           578797568  maximum resident set size
+=== controls/R3_inv_replace.txt
+file research/improve-frontier/referee_davenport/controls/R3_inv_replace.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=43 (terms vanishing on P), |B|=23
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 2 terms, lines [35, 66]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.41 real         0.31 user         0.05 sys
+           475463680  maximum resident set size
+=== controls/R4_inv_append.txt
+file research/improve-frontier/referee_davenport/controls/R4_inv_append.txt: length 67, rank 13; tail P=[9, 10, 11, 12]; |A|=43 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 12 terms, lines [1, 2, 4, 5, 6, 7, 8, 11, 12, 15, 16, 67]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.42 real         0.30 user         0.04 sys
+           475365376  maximum resident set size
+=== controls/R5_negsum65.txt
+file research/improve-frontier/referee_davenport/controls/R5_negsum65.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038844 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 13 distinct elements, multiplicities [3, 4, 4, 1, 1, 3, 1, 2, 1, 1, 1, 1, 1]; sub-multisets to scan: 307200
+nonempty Y with sigma(Y) = 0 on P: 127
+of those, -sigma(Y)|Q in Sigma(A): 1
+explicit zero-sum subsequence: 66 terms, lines [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.33 real         0.46 user         0.06 sys
+           434536448  maximum resident set size
+=== controls/R6_append_negsum.txt
+file research/improve-frontier/referee_davenport/controls/R6_append_negsum.txt: length 67, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=25
+zero terms: []
+|Sigma(A)| incl. empty = 5038844 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 14 distinct elements, multiplicities [3, 4, 4, 1, 1, 1, 3, 1, 2, 1, 1, 1, 1, 1]; sub-multisets to scan: 614400
+nonempty Y with sigma(Y) = 0 on P: 251
+of those, -sigma(Y)|Q in Sigma(A): 1
+explicit zero-sum subsequence: 67 terms, lines [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.81 real         0.63 user         0.07 sys
+           694697984  maximum resident set size
+=== controls/R7_e1_six.txt
+file research/improve-frontier/referee_davenport/controls/R7_e1_six.txt: length 69, rank 13; tail P=[9, 10, 11, 12]; |A|=45 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 14 terms, lines [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 67]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.35 real         0.29 user         0.04 sys
+           495435776  maximum resident set size
+=== controls/I1_random.txt
+file research/improve-frontier/referee_davenport/controls/I1_random.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 10077672 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 13 distinct elements, multiplicities [3, 4, 4, 1, 1, 1, 3, 1, 2, 1, 1, 1, 1]; sub-multisets to scan: 307200
+nonempty Y with sigma(Y) = 0 on P: 125
+of those, -sigma(Y)|Q in Sigma(A): 86
+explicit zero-sum subsequence: 23 terms, lines [1, 2, 3, 4, 5, 6, 8, 11, 14, 16, 22, 26, 27, 28, 29, 30, 31, 32, 37, 38, 43, 44, 45]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.58 real         0.46 user         0.06 sys
+           580583424  maximum resident set size
+=== controls/I2_random.txt
+file research/improve-frontier/referee_davenport/controls/I2_random.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=41 (terms vanishing on P), |B|=25
+zero terms: []
+|Sigma(A)| incl. empty = 5038836 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 14 distinct elements, multiplicities [3, 4, 4, 1, 1, 1, 3, 1, 1, 2, 1, 1, 1, 1]; sub-multisets to scan: 614400
+nonempty Y with sigma(Y) = 0 on P: 323
+of those, -sigma(Y)|Q in Sigma(A): 41
+explicit zero-sum subsequence: 18 terms, lines [1, 2, 3, 8, 11, 14, 15, 43, 44, 46, 47, 57, 58, 59, 63, 64, 65, 66]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.83 real         0.62 user         0.07 sys
+           684507136  maximum resident set size
+=== controls/I3_random.txt
+file research/improve-frontier/referee_davenport/controls/I3_random.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 3 terms, lines [4, 5, 6]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.33 real         0.28 user         0.04 sys
+           464502784  maximum resident set size
+=== controls/I4_random.txt
+file research/improve-frontier/referee_davenport/controls/I4_random.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038844 of 6^9 = 10077696
+case (i): A is zero-sumfree
+B: 14 distinct elements, multiplicities [3, 4, 3, 1, 1, 1, 1, 3, 1, 2, 1, 1, 1, 1]; sub-multisets to scan: 491520
+nonempty Y with sigma(Y) = 0 on P: 237
+of those, -sigma(Y)|Q in Sigma(A): 76
+explicit zero-sum subsequence: 17 terms, lines [1, 2, 3, 8, 11, 14, 15, 43, 46, 47, 57, 59, 60, 61, 63, 64, 65]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.63 real         0.55 user         0.06 sys
+           647512064  maximum resident set size
+=== controls/I5_random.txt
+file research/improve-frontier/referee_davenport/controls/I5_random.txt: length 66, rank 13; tail P=[9, 10, 11, 12]; |A|=42 (terms vanishing on P), |B|=24
+zero terms: []
+|Sigma(A)| incl. empty = 5038848 of 6^9 = 10077696
+case (i): A has a nonempty zero sum
+explicit zero-sum subsequence: 23 terms, lines [1, 2, 4, 5, 11, 12, 13, 14, 19, 20, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 38]; sum = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+VERDICT (mitm): NOT zero-sumfree
+        0.38 real         0.28 user         0.03 sys
+           465354752  maximum resident set size

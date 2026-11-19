@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this sequence or these programs, please cite them as below, together with Gao, Geroldinger, Wang and Zeng, arXiv:2611.24775."
+type: dataset
+title: "D(C_6^13) >= 67: the van Emde Boas-Kruyswijk conjecture fails for C_6^r from rank 13"
+abstract: "An explicit zero-sumfree sequence of length 66 over C_6^13, so D(C_6^r) > 5r + 1 for every r >= 13 and D(C_6^r) >= 5r + floor(r/13) + 1 for every r; built from the sequences of Gao, Geroldinger, Wang and Zeng with a gluing lemma; checked by two separately written programs and an internal referee's two programs, with red controls. Not yet peer reviewed."
+authors:
+  - family-names: Canli
+    given-names: Arhan
+    affiliation: Quantavane
+    email: arhan@quantavane.com
+license: CC-BY-4.0
+url: "https://quantavane.com"
+repository-code: "https://github.com/arhancanli/quantavane-davenport-c6"
+keywords:
+  - Davenport constant
+  - zero-sum theory
+  - van Emde Boas-Kruyswijk conjecture
+  - finite abelian groups

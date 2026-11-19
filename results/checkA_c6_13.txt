@@ -1,0 +1,5 @@
+Thu Nov 19 14:30:30 +04 2026
+checkA: r=13 L=66 ZERO-SUMFREE; distinct nonempty subsums 13060694015 of 13060694016 group elements (0 nonzero elements missed)
+real 22.44
+user 18.50
+sys 0.49

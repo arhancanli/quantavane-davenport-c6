@@ -1,0 +1,9 @@
+== control flipz
+checkA: r=13 L=66 NOT zero-sumfree (a nonempty zero sum appears when term 37 is added)
+== control vzero
+checkA: r=13 L=66 NOT zero-sumfree (a nonempty zero sum appears when term 16 is added)
+== control append
+checkA: r=13 L=67 NOT zero-sumfree (a nonempty zero sum appears when term 67 is added)
+== control oneline
+checkA: r=13 L=66 NOT zero-sumfree (a nonempty zero sum appears when term 58 is added)
+Thu Nov 19 14:31:53 +04 2026

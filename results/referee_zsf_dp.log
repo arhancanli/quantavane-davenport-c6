@@ -1,0 +1,173 @@
+gate ok: load1=50 free=55% 2026-11-19 14:56:45
+=== witness_c6_13_len66.txt  start 2026-11-19 14:56:45
+file: research/improve-frontier/referee_davenport/witness_c6_13_len66.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+group order 6^13 = 13060694016
+distinct subsums incl. empty sum: 13060694016
+distinct NONEMPTY subsums (all nonzero, since zero-sumfree): 13060694015
+every nonzero element is a nonempty subsum: yes
+VERDICT: ZERO-SUMFREE (length 66 over C_6^13)
+exit 0  end 2026-11-19 14:56:54
+        9.34 real        25.26 user         0.29 sys
+          1640726528  maximum resident set size
+gate ok: load1=46 free=55% 2026-11-19 14:56:54
+=== controls/R1_onecoord.txt  start 2026-11-19 14:56:54
+file: research/improve-frontier/referee_davenport/controls/R1_onecoord.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 9 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:56:56
+        1.10 real         2.98 user         0.20 sys
+          1640710144  maximum resident set size
+gate ok: load1=50 free=55% 2026-11-19 14:56:56
+=== controls/R2_neg5.txt  start 2026-11-19 14:56:56
+file: research/improve-frontier/referee_davenport/controls/R2_neg5.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 66 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:05
+        9.30 real        24.88 user         0.31 sys
+          1640726528  maximum resident set size
+gate ok: load1=47 free=55% 2026-11-19 14:57:05
+=== controls/R3_inv_replace.txt  start 2026-11-19 14:57:05
+file: research/improve-frontier/referee_davenport/controls/R3_inv_replace.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 66 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:14
+        9.20 real        24.68 user         0.27 sys
+          1640726528  maximum resident set size
+gate ok: load1=45 free=56% 2026-11-19 14:57:14
+=== controls/R4_inv_append.txt  start 2026-11-19 14:57:14
+file: research/improve-frontier/referee_davenport/controls/R4_inv_append.txt
+terms (length): 67
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 67 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:23
+        9.14 real        25.25 user         0.27 sys
+          1640726528  maximum resident set size
+gate ok: load1=43 free=55% 2026-11-19 14:57:23
+=== controls/R5_negsum65.txt  start 2026-11-19 14:57:23
+file: research/improve-frontier/referee_davenport/controls/R5_negsum65.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 66 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:32
+        8.94 real        24.53 user         0.25 sys
+          1640693760  maximum resident set size
+gate ok: load1=40 free=56% 2026-11-19 14:57:32
+=== controls/R6_append_negsum.txt  start 2026-11-19 14:57:32
+file: research/improve-frontier/referee_davenport/controls/R6_append_negsum.txt
+terms (length): 67
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 67 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:41
+        8.60 real        24.64 user         0.25 sys
+          1640693760  maximum resident set size
+gate ok: load1=36 free=56% 2026-11-19 14:57:41
+=== controls/R7_e1_six.txt  start 2026-11-19 14:57:41
+file: research/improve-frontier/referee_davenport/controls/R7_e1_six.txt
+terms (length): 69
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 6
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 67 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:50
+        8.64 real        24.71 user         0.24 sys
+          1640726528  maximum resident set size
+gate ok: load1=35 free=56% 2026-11-19 14:57:50
+=== controls/I1_random.txt  start 2026-11-19 14:57:50
+file: research/improve-frontier/referee_davenport/controls/I1_random.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 37, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 45 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:57:56
+        5.85 real        17.14 user         0.25 sys
+          1640710144  maximum resident set size
+gate ok: load1=34 free=57% 2026-11-19 14:57:56
+=== controls/I2_random.txt  start 2026-11-19 14:57:56
+file: research/improve-frontier/referee_davenport/controls/I2_random.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 63 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:58:04
+        8.40 real        23.94 user         0.24 sys
+          1640710144  maximum resident set size
+gate ok: load1=31 free=57% 2026-11-19 14:58:04
+=== controls/I3_random.txt  start 2026-11-19 14:58:04
+file: research/improve-frontier/referee_davenport/controls/I3_random.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 6 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:58:05
+        0.72 real         1.81 user         0.17 sys
+          1640726528  maximum resident set size
+gate ok: load1=31 free=57% 2026-11-19 14:58:05
+=== controls/I4_random.txt  start 2026-11-19 14:58:05
+file: research/improve-frontier/referee_davenport/controls/I4_random.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 60 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:58:13
+        7.90 real        21.36 user         0.24 sys
+          1640742912  maximum resident set size
+gate ok: load1=30 free=58% 2026-11-19 14:58:13
+=== controls/I5_random.txt  start 2026-11-19 14:58:13
+file: research/improve-frontier/referee_davenport/controls/I5_random.txt
+terms (length): 66
+rank r: 13 (all entries single digits in 0..5: yes)
+zero terms: 0
+distinct elements: 38, max multiplicity: 4
+state: 3^13 = 1594323 cells x 128 words = 1.633 GB
+ZERO-SUM: first appears when adding term 38 (1-based)
+VERDICT: NOT zero-sumfree
+exit 1  end 2026-11-19 14:58:18
+        4.99 real        14.42 user         0.22 sys
+          1640710144  maximum resident set size
+ALL DONE 2026-11-19 14:58:18
