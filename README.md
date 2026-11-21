@@ -110,9 +110,28 @@ Anthropic) working for Quantavane under Arhan Canli's direction. Programs descri
 code but were written with the same AI system. No mathematician outside Quantavane has reviewed this repository; the
 witness can be checked by anyone with the programs here or with their own.
 
-## Licence and citation
+## Licence
 
 The witness, controls, outputs and text are under CC BY 4.0 (`LICENSE`); the code is under the MIT licence
-(`LICENSE-CODE`). Please cite as: Arhan Canli, *D(C₆¹³) ≥ 67: the van Emde Boas–Kruyswijk conjecture fails for C₆ʳ
-from rank 13*, https://github.com/arhancanli/quantavane-davenport-c6 (2026), together with Gao, Geroldinger, Wang and
-Zeng, arXiv:2611.24775.
+(`LICENSE-CODE`).
+
+## How to cite
+
+Please cite as: Arhan Canli, *D(C₆¹³) ≥ 67: the van Emde Boas–Kruyswijk conjecture fails for C₆ʳ from rank 13*,
+https://github.com/arhancanli/quantavane-davenport-c6 (2026), together with Gao, Geroldinger, Wang and Zeng,
+arXiv:2611.24775.
+
+```bibtex
+@misc{quantavane-davenport-c6,
+  author       = {Canli, Arhan},
+  title        = {{$D(C_6^{13}) \ge 67$}: the van {Emde Boas}--{Kruyswijk} conjecture fails for {$C_6^r$} from rank 13},
+  year         = {2026},
+  howpublished = {\url{https://github.com/arhancanli/quantavane-davenport-c6}},
+  note         = {Quantavane; CC BY 4.0; code MIT}
+}
+```
+
+[CITATION.cff](CITATION.cff) gives the same reference for GitHub's "Cite this repository" button.
+
+Known uses of this work are listed in [USED_BY.md](USED_BY.md). If you use it, please open an issue or a pull request
+with a link so that yours can be added.
